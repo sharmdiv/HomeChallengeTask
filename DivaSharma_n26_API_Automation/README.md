@@ -1,26 +1,30 @@
-## 🚀 N26 Pet Store API Task
+ N26 Pet Store API Task
 
-### 📝 Project Description
+## Project Description
 This project provides a comprehensive API test automation solution for the Petstore Swagger API, focusing on the "pet" endpoints. The tests are implemented using TestNG and Rest Assured libraries to validate REST API functionality.
 
-### ✨ Features
+## Features
 - CRUD Operations for Pet (Create, Read, Update, Delete)
 - Positive and negative test cases
 - Detailed validation of API responses (status codes, response bodies, headers)
 - Error scenarios and performance testing
 - Structured and reusable test code
 
-### 🛠️ Prerequisites
+## Prerequisites
 Ensure the following tools and technologies are installed on your system:
 - Java JDK 17+
 - Maven 3.6.3+
 - Stable Internet Connection
 - Supported IDE (e.g., IntelliJ IDEA, Eclipse)
 
-## 🚀 Setup and Execution
+##Setup and Execution
 
+Clone the respository from https://github.com/sharmdiv/Diva-Sharma 
 
 ### 2. Install Dependencies
+
+Go to the folder DivaSharma_n26_API_Automation
+
 Run the following command to install the required dependencies:
 ```bash
 mvn clean install
@@ -40,7 +44,7 @@ mvn test -Dtest=PetApiTest
 
 (Also You Can Run Test Manually Using PetApiTest by Hitting the Run Button)
 
-### 📋 Test Scenarios
+## Test Scenarios
 The following 6 test scenarios are implemented, covering both positive and negative cases:
 
 - Add a new pet (Create)
@@ -50,7 +54,7 @@ The following 6 test scenarios are implemented, covering both positive and negat
 - Retrieve a non-existing pet (Negative Case)
 - Add a pet with invalid data (Negative Case)
 
-### 🛠️ Technologies Used
+## Technologies Used
 - Java 17 – Programming language
 - TestNG – Test framework for test execution and structure
 - Rest Assured – API testing and validation library
@@ -59,7 +63,7 @@ The following 6 test scenarios are implemented, covering both positive and negat
 - JSONPath – JSON parsing and validation
 - Log4j – Logging framework
 
-### ⚠️ Troubleshooting
+##  Troubleshooting
 If the tests fail to run, try the following steps:
 
 Verify the directory structure of the project.
